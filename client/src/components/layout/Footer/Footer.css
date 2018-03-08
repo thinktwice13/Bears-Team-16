@@ -1,0 +1,10 @@
+.footer-wrapper {
+    padding: 30px;
+    background-color: #a9a9a9;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: var(--body-font);
+    color: white;
+}
