@@ -1,18 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'
+import './Header.css';
 
 const Header = () => (
-    <div className='header-wrapper'>
-        <div className='header-logo'>
-            logo comes here
+  <div className="header-wrapper">
+      <div className="header-logo">
+          <img src="/icons/bear.png" />
         </div>
-        <div className='header-navbar'>
-            <div>
-                <Link to="/login">Login</Link>
+      <div className="search-bar">
+          <i className="fas fa-search" />
+          <input />
+        </div>
+      <div className="links">
+          <div>
+              <Link to="/login">Login</Link>
             </div>
-            <div>
-                <Link to="/signup">Signup</Link>
+          <div>
+              <Link to="/signup">Signup</Link>
             </div>
         </div>
     </div>
