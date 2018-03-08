@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700|Quicksand:400,500,700');
 
 :root {
-    --main-text-font : Nunito;
-    --header-background-color: #F79751;
-    --header-navbar-color: #A13C07;
-    --header-navbar-hover-color: #D97230;
+    --header-font: Nunito;
+    --body-font: Quicksand;
+    --primary-color: #FFD730;
+    --primary-color-selected: #F2C71B;
+}
+
+.fill-viewport {
+    min-height: 100vh;
 }
