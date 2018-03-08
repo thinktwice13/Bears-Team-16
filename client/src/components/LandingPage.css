@@ -1,0 +1,13 @@
+#presentation {
+  background-color: var(--primary-color);
+  display: flex;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+.title {
+  font-family: var(--header-font);
+  color: white;
+}
